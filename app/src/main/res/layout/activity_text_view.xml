@@ -28,7 +28,7 @@
         android:id="@+id/tv_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableRight="@drawable/icons8-checked_checkbox"
+        android:drawableRight="@drawable/icons8_checked_checkbox"
         android:drawablePadding="5dp"
         android:text="gbzhu"
         android:textColor="#000000"
