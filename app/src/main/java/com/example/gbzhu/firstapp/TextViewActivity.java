@@ -17,7 +17,7 @@ public class TextViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text_view);
-        drawable = getDrawable(R.drawable.icons8_checked_checkbox);
+        drawable = getResources().getDrawable(R.drawable.icons8_checked_checkbox);
         drawable.setBounds(0, 0, drawable.getMinimumWidth(), drawable.getMinimumHeight());
 
         mTv3 = findViewById(R.id.tv_3);
