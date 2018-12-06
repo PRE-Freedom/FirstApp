@@ -9,8 +9,7 @@ import android.widget.TextView;
 
 public class TextViewActivity extends AppCompatActivity {
 
-    private TextView mTv3;
-    private Drawable drawable;
+    protected Drawable drawable;
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -20,7 +19,7 @@ public class TextViewActivity extends AppCompatActivity {
         drawable = getResources().getDrawable(R.drawable.icons8_checked_checkbox);
         drawable.setBounds(0, 0, drawable.getMinimumWidth(), drawable.getMinimumHeight());
 
-        mTv3 = findViewById(R.id.tv_3);
+        TextView mTv3 = findViewById(R.id.tv_3);
         mTv3.setCompoundDrawables(drawable, null, null, null);
     }
 }
